@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #registerwholepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 194, 194);
+    height: 100vh;
+  }
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 100px 50px 100px;
+    justify-content: center;
+    background-color: bisque;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgb(123, 123, 123);
+}
+.inputs{
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 7px ;
+    box-shadow: 5px 5px 5px rgb(109, 109, 109);
+}
+#register{
+    margin-bottom: -10px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#signup{
+    margin-top: 50px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    background-color: rgba(255, 52, 52, 0.651);
+    box-shadow: 2px 2px 3px black;
+}
+
+#firstarea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logoandbook{
+    display: flex;
+}
+
+
+#booklogo{
+    padding-left: 30px;
+    height: 100px;
+    width: 100px;
+}
+#kalviumbooks{
+    color: red;
+    font-weight: bolder;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+#searchbar{
+    /* height: 30px; */
+    width: 30%;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 2px 3px 5px rgb(169, 169, 169);
+}
+#registerbtn{
+    margin-right: 50px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    width: 120px;
+    background-color: rgba(255, 0, 0, 0.558);
+    border-radius: 5px ;
+    border: 0px;
+    box-shadow: 2px 2px 5px rgb(162, 162, 162);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.books-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.bookimg{
+    height: 270px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(243, 181, 181, 0.475);
+    border-radius: 15px;
+    box-shadow: 7px 7px 5px rgb(144, 144, 144);
+    font-family: Itim;
+}
+
+#free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#freebtn{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: rgba(255, 0, 0, 0.537);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(151, 150, 150);
+    height: 25px;
+    width: 70px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#imgandname{
+    width: fit-content;
+    /* border: 2px solid red; */
+
+}
+#booktitle{
+    height: 70px;
+    overflow-y: scroll;
+}
+#booktitle::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+
+#bookinfo{
+    margin-top: 5px;
+}
