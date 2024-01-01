@@ -115,8 +115,14 @@ form{
     margin: 20px;
     background-color: rgba(243, 181, 181, 0.475);
     border-radius: 15px;
-    box-shadow: 7px 7px 5px rgb(144, 144, 144);
     font-family: Itim;
+    transition: transform .3s;
+}
+
+.books:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 7px 7px 5px rgb(144, 144, 144);
 }
 
 #free{
@@ -132,11 +138,16 @@ form{
     color: white;
     border: 0px;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px rgb(151, 150, 150);
     height: 25px;
     width: 70px;
     margin-top: 5px;
     font-size: 20px;
+}
+#freebtn:hover{
+    background-color: rgba(255, 0, 0, 0.949);
+    box-shadow: 3px 3px 3px rgb(151, 150, 150);
+    transform: scale(1.05);
+
 }
 #imgandname{
     width: fit-content;
@@ -151,8 +162,6 @@ form{
     display: none;
 
 }
-
-
 
 #bookinfo{
     margin-top: 5px;

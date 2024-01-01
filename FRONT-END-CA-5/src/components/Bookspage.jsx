@@ -7,7 +7,7 @@ function Bookpage() {
   const [books, setBooks] = useState([]);
   const [searchValue, setSearchValue] = useState("");
   const [searchBooks, setSearchBooks] = useState([]);
-  // const noImage = 'https://via.placeholder.com/150'; // Placeholder image URL
+
 
   useEffect(() => {
     axios
@@ -48,7 +48,7 @@ function Bookpage() {
           <img
             id="booklogo"
             src="https://res.cloudinary.com/dduugsixy/image/upload/v1703222226/image-removebg-preview_24_yefmr9.png"
-            alt="Book Logo"
+            alt="Book img"
           />
           <h1 id="kalviumbooks">
             Kalvium <br /> Books
@@ -72,7 +72,6 @@ function Bookpage() {
         {Array.isArray(filterList) && filterList.length > 0 ? (
           filterList.map((book, index) => (
             <div className="books" key={index}>
-              {/* <div id="imgandname"> */}
               {book.imageLinks && book.imageLinks.thumbnail && (
                 <img
                   className="bookimg"
